@@ -2,11 +2,12 @@
 #Creating Interactive Visualization Using JavaScript 
 
 CREDITS:
-# Project-3_Group-13
 Heidari, Ali
 Shahzad, Sameen 
 Syed, Farman 
 Tanguin, Marivic 
+
+# Project-3_Group-13
 
 "The Health Impacts and Mortality Risk of Air Pollution"
 
