@@ -2,6 +2,7 @@
 #Creating Interactive Visualization Using JavaScript 
 
 CREDITS:
+
 Heidari, Ali
 
 Shahzad, Sameen 
