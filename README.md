@@ -3,10 +3,10 @@
 
 CREDITS:
 # Project-3_Group-13
-# Ali Heidari
-# Sameen Shahzad
-# Farman Syed
-# Marivic Tanguin
+Heidari, Ali
+Shahzad, Sameen 
+Syed, Farman 
+Tanguin, Marivic 
 
 
  
