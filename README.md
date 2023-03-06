@@ -1,8 +1,17 @@
 # The-Health-Impacts-and-Mortality-Risk-of-Air-Pollution
 #Creating Interactive Visualization Using JavaScript 
 
-
+CREDITS:
 # Project-3_Group-13
+# Ali Heidari
+# Sameen Shahzad
+# Farman Syed
+# Marivic Tanguin
+
+
+ 
+![image](https://user-images.githubusercontent.com/114210481/223002772-1b0b358c-21d7-45f4-9266-2e2ca813e364.png)
+
 
 
 "The Health Impacts and Mortality Risk of Air Pollution"
