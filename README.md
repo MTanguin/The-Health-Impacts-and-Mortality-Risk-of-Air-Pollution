@@ -8,9 +8,6 @@ Shahzad, Sameen
 Syed, Farman 
 Tanguin, Marivic 
 
-![image](https://user-images.githubusercontent.com/114210481/223002772-1b0b358c-21d7-45f4-9266-2e2ca813e364.png)
-
-
 "The Health Impacts and Mortality Risk of Air Pollution"
 
 
