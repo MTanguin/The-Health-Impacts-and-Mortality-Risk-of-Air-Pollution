@@ -3,13 +3,7 @@
 
 CREDITS:
 
-Heidari, Ali
-
-Shahzad, Sameen 
-
-Syed, Farman 
-
-Tanguin, Marivic 
+Heidari, Ali | Shahzad, Sameen | Syed, Farman | Tanguin, Marivic 
 
 
 # Project-3_Group-13
