@@ -1,5 +1,5 @@
 
-#### "Creating interactive visualization using JavaScript to visualize the health impacts and mortality risk of air pollution"
+#### "Creating interactive visualization using JavaScript to visualize the health impacts and mortality risk of air pollution in different countries"
 
 CREDITS:
 
