@@ -33,7 +33,7 @@ The study covered a period of 5 years (2015-2019) and includes data on air quali
 ##### Data Collection and Database Setup:
 
 Collect a dataset with a minimum of 100 unique records from reliable sources or through web scraping.
-Set up a database system, such as SQL, MongoDB, or SQLite, to store and manage the dataset.
+Set up a database system, such as PostgreSQL, MongoDB, or SQLite, to store and manage the dataset.
 
 ##### Backend Development:
 
