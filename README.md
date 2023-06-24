@@ -2,9 +2,7 @@
 #### "Creating interactive visualization using JavaScript to visualize the health impacts and mortality risk of air pollution in different countries"
 
 CREDITS:
-
 Heidari, Ali | Shahzad, Sameen | Syed, Farman | Tanguin, Marivic 
-
 
 #### Project-3_Group-13
 
