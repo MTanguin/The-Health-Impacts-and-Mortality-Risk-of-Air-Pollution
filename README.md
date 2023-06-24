@@ -15,6 +15,8 @@ Heidari, Ali | Shahzad, Sameen | Syed, Farman | Tanguin, Marivic
 
 In this project, we aim to create a data-driven web application that showcases visualizations and insights derived from a dataset. The dataset contains more than 100 unique records and is stored in a database PostgreSQL. By leveraging the power of Python Flask API, HTML/CSS, JavaScript, and the chosen database, we create an interactive web application that allows users to explore and understand the data through various visualizations.
 
+The study involved analyzing air quality data from different countries as well as mortality rate and disease burden data related to air pollution. We used modeling technique like interactive vivisualizations to present the spatial distribution of pollutants such as PM25, PM10, and NO2 their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution  country to country.
+
 
 ## Purpose:
 
@@ -55,10 +57,6 @@ Focus on creating a compelling data story that effectively communicates insights
 ## Limitations:
 
 The study is limited by the availability and quality of data, which may vary by country and over time. In addition, the study focuses on selected types of air pollution and does not cover all possible sources of air pollution, such as industrial emissions or transportation-related pollution.
-
-## Overview:
-
-The study involved analyzing air quality data from different countries as well as mortality rate and disease burden data related to air pollution. We used modeling technique like interactive vivisualizations to present the spatial distribution of pollutants such as PM25, PM10, and NO2 their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution  country to country.
 
 ## Conclusions:
 
