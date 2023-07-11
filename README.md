@@ -23,6 +23,10 @@ The study involved analyzing air quality data from different countries as well a
 
 The purpose of this study is to investigate the health impacts and mortality risk of air pollution, including ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels. By examining exposure to these types of pollution, we aim to gain a better understanding of the risks associated with air pollution and identify potential strategies to mitigate its harmful effects on human health.
 
+## Research Question
+
+What is the severity of air pollution and its impact on disease burden and mortality rates?
+
 ## Scope:
 
 
