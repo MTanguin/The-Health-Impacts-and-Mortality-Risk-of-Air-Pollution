@@ -25,8 +25,14 @@ The purpose of this study is to investigate the health impacts and mortality ris
 
 ## Research Question
 
-What is the severity of air pollution and its impact on disease burden and mortality rates?
-
+1. Ambient Air Quality Data: What are the top 10 countries with the yearly highest levels of PM2.5, PM10, and NO2 between 2015-2019?
+2. Outdoor Pollution Rates by Ages:  What are the top 10 countries with the highest yearly death rates due to outdoor air pollution categorized by different age groups (under 5, 5-14 years, 15-49 years, 50-69 years, and 70+ years) between 2015-2019?  
+3. Death Rates From Air Pollution: What are the top 10 countries with the highest yearly death rates from different types of air pollution (household air pollution, ambient particulate matter pollution, air pollution in general, and ambient ozone pollution  between 2015-2019?
+4. AQ Pollution Mortality Data: What are the top 10 countries with the highest yearly total pollution deaths and air pollution deaths, ranked by country, between year 2015-2019?
+6. Disease burden by Risk Factor: What are the top 10 Disability-Adjusted Life Years (DALY) attributed to various risk factors (e.g., low physical activity, air pollution, smoking) between 2015-2019?
+7. Number of deaths by Risk factors: What are the top 10 countries with the highest yearly number of deaths attributed to various risk factors (e.g., low physical activity, air pollution, smoking) between 2015-2019?
+   - Is air pollution a leading cause of death compared to other risk factors, such as smoking or poor diet?
+   
 
 ## Scope
 
@@ -36,7 +42,7 @@ The study covered a period of 5 years (2015-2019) and includes data on air quali
 
 ##### Data Collection and Database Setup:
 
-Collected a dataset with a minimum of 100 unique records from reliable sources or through web scraping and API request.
+Collected a dataset from reliable sources or through web scraping and API request.
 Set up a database system PostgreSQL to store and manage the dataset.
 
 ##### Backend Development:
@@ -49,7 +55,7 @@ Ensured that the page showcasing data visualizations runs without errors.
 
 Designed and developed HTML/CSS templates to create an intuitive and visually appealing user interface.
 Incorporated JavaScript to enhance interactivity and user-driven interactions on the web page.
-Utilized a JavaScript library not covered in class to enhance the visualizations and user experience.
+Utilized a JavaScript library to enhance the visualizations and user experience.
 
 ##### Visualization Design:
 
@@ -67,11 +73,73 @@ The web application includes the following visualizations:
 
 The web application incorporates JavaScript libraries like Leaflet, Plotly.js, and D3.js to create interactive and visually appealing visualizations. These visualizations allow users to explore and analyze the dataset, enabling a better understanding of the relationships between air pollution, disease burden, and mortality rates.
 
+## Deployment:
+
+Flask application
+
+1. Database Connection:
+   - The application establishes a connection to a PostgreSQL database using the SQLAlchemy library. The connection details, such as the username, password, and database name, are provided in the `create_engine` function.
+
+2. ORM Mapping:
+   - The application uses SQLAlchemy's `automap_base` to reflect the existing database tables and map them to Python classes. This allows the application to interact with the database using these mapped classes.
+
+3. Flask Setup:
+   - The Flask application is created using `Flask(__name__)`. The `template_folder` parameter is set to specify the folder where HTML templates are located.
+
+4. Routes:
+   - The application defines several routes using the `@app.route` decorator. Each route corresponds to a specific type of data that the application retrieves from the database.
+
+5. Querying the Database:
+   - Within each route function, the application creates a session using `Session(engine)` to establish a connection to the database.
+   - It then uses SQLAlchemy's query capabilities to retrieve the desired data from the corresponding tables.
+   - The retrieved data is processed and transformed into dictionaries or dictionary-based structures.
+  
+       Data that can be retrieved :
+
+       1. Country Data:
+          - Latitude and longitude coordinates for different countries.
+
+       2. Ambient Air Quality Data:
+          - Yearly data on PM2.5, PM10, and NO2 levels for different countries.
+
+       3. Outdoor Pollution Rates by Ages:
+          - Yearly death rates due to outdoor air pollution categorized by different age groups (under 5, 5-14 years, 15-49 years, 50-69 years, and 70+ years) for                      different countries.
+
+       4. Death Rates From Air Pollution:
+          - Yearly death rates from different types of air pollution (household air pollution, ambient particulate matter pollution, air pollution in general, and ambient               ozone pollution) for different countries.
+
+       5. AQ Pollution Mortality Data:
+          - Yearly total pollution deaths and air pollution deaths, ranked by country.
+
+       6. Disease Burden by Risk Factor:
+          - Yearly Disability-Adjusted Life Years (DALY) attributed to various risk factors (e.g., low physical activity, air pollution, smoking) for different countries.
+
+       7. Number of Deaths by Risk Factor:
+          - Yearly number of deaths attributed to various risk factors (e.g., low physical activity, air pollution, smoking) for different countries.
+
+The Flask application sets up routes for each of these data categories and queries the corresponding tables in the database to retrieve the data. The retrieved data is then converted into dictionaries and returned as JSON responses.
+       
+6. JSON Responses:
+   - The processed data is returned as JSON responses using Flask's `jsonify` function.
+   - Each route function specifies the structure and content of the JSON response based on the retrieved data.
+
+7. Running the Application:
+   - At the end of the code, the application is run using `app.run(debug=True)`.
+   - The `debug=True` parameter enables the debug mode, which provides detailed error messages and automatically restarts the application on code changes.
+
+8. Opening the Browser:
+   - The `open_browser` function is used to open the browser and display the application.
+   - A Timer is set to delay the opening of the browser by 1 second to ensure that the Flask server is running before the browser is opened.
+
+By accessing the defined routes of the Flask application, such as `"/countrydata"` or `"/agepollution"`, users can retrieve the corresponding data from the database in JSON format.
+
 ## Limitations:
 
 The study is limited by the availability and quality of data, which may vary by country and over time. In addition, the study focuses on selected types of air pollution and does not cover all possible sources of air pollution, such as industrial emissions or transportation-related pollution.
 
 ## Conclusions:
+
+
 
 Pollutants such as PM2.5, PM10, and NO2 allow scientists to estimate the spatial distribution of their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution from city to city, and country to country.
 
