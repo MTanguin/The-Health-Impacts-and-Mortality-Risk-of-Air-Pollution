@@ -180,20 +180,27 @@ Sources:
 
 World Health Organization (WHO)
 Links: 
+
 [WHO Air Quality Database](https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database)
+
 [WHO Air Quality & Health Impacts](https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts)
+
 [WHO Health Impacts & Types of Pollutants](https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants)
-[WHO Health Impacts & Exposure- to Air Pllution](nhttps://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution)
+
+[WHO Health Impacts & Exposure- to Air Pollution](https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution)
        
 
 Global Alliance on Health and Pollution (GAHP)  
 Link: 
+
 [Pollution & Health Metrics](https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_18_2019.pdf)
 
 
 kaggle.com (@article{owidairpollution)
 Links: 
+
 [Death Rates from Air Pollution](https://www.kaggle.com/datasets/programmerrdai/air-pollution?select=death-rates-from-air-pollution.csv)
+
 [Outdoor Air Pollution](https://www.kaggle.com/datasets/programmerrdai/outdoor-air-pollution?select=PM25-air-pollution.csv)
 
 
