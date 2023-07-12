@@ -35,7 +35,7 @@ The purpose of this study is to investigate the health impacts and mortality ris
 Please note that the specific data requested is from the year 2019. Let me know if you would like any further assistance with these research questions.
    
 
-## Scope & Limitations:
+## Scope & Limitations
 
 The study covered a period of 5 years (2015-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.
 
