@@ -25,18 +25,21 @@ The purpose of this study is to investigate the health impacts and mortality ris
 
 ## Research Question
 
-1. Ambient Air Quality Data: What are the top 10 countries with the yearly highest levels of PM2.5, PM10, and NO2 between 2015-2019?
-2. Outdoor Pollution Rates by Ages:  What are the top 10 countries with the highest yearly death rates due to outdoor air pollution categorized by different age groups (under 5, 5-14 years, 15-49 years, 50-69 years, and 70+ years) between 2015-2019?  
-3. Death Rates From Air Pollution: What are the top 10 countries with the highest yearly death rates from different types of air pollution (household air pollution, ambient particulate matter pollution, air pollution in general, and ambient ozone pollution  between 2015-2019?
-4. AQ Pollution Mortality Data: What are the top 10 countries with the highest yearly total pollution deaths and air pollution deaths, ranked by country, between year 2015-2019?
-6. Disease burden by Risk Factor: What are the top 10 Disability-Adjusted Life Years (DALY) attributed to various risk factors (e.g., low physical activity, air pollution, smoking) between 2015-2019?
-7. Number of deaths by Risk factors: What are the top 10 countries with the highest yearly number of deaths attributed to various risk factors (e.g., low physical activity, air pollution, smoking) between 2015-2019?
-   - Is air pollution a leading cause of death compared to other risk factors, such as smoking or poor diet?
+1. Ambient Air Quality Data: Which countries had the highest concentrations of PM2.5, PM10, and NO2 in 2019? (Top 10 countries)
+2. Outdoor Pollution Rates by Age: Which countries had the highest death rates across different age groups (under 5, 5-14 years, 15-49 years, 50-69 years, and 70+ years) in 2019? (Top 10 countries)
+3. Death Rates From Air Pollution: Which countries had the highest death rates attributed to air pollution (including household air pollution, ambient particulate matter pollution, air pollution in general, and ambient ozone pollution) in 2019? (Top 10 countries)
+4. AQ Pollution Mortality Data: Which countries had the highest yearly total pollution deaths and air pollution deaths in 2019? (Top 10 countries)
+5. Disease Burden by Risk Factor: Is air pollution a leading cause of death compared to other risk factors such as smoking or poor diet? (Comparison of risk factors)
+6. Number of Deaths by Risk Factors: Are deaths from air pollution attributed to various risk factors such as low physical activity, air pollution, and smoking? (Examine the relationship between air pollution and other risk factors)
+
+Please note that the specific data requested is from the year 2019. Let me know if you would like any further assistance with these research questions.
    
 
-## Scope
+## Scope & Limitations:
 
 The study covered a period of 5 years (2015-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.
+
+The study is limited by the availability and quality of data, which may vary by country and over time. In addition, the study focuses on selected types of air pollution and does not cover all possible sources of air pollution, such as industrial emissions or transportation-related pollution.
 
 ## Methods
 
@@ -133,13 +136,35 @@ The Flask application sets up routes for each of these data categories and queri
 
 By accessing the defined routes of the Flask application, such as `"/countrydata"` or `"/agepollution"`, users can retrieve the corresponding data from the database in JSON format.
 
-## Limitations:
 
-The study is limited by the availability and quality of data, which may vary by country and over time. In addition, the study focuses on selected types of air pollution and does not cover all possible sources of air pollution, such as industrial emissions or transportation-related pollution.
+## Results:
+
+1. Ambient Air Quality Data: Which countries had the highest concentrations of PM2.5, PM10, and NO2 in 2019? (Top 10 countries)
+
+![Most Polluted Countries 2019](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/af5cef95-40b9-4c9e-bd3d-6369209cf7de)
+
+2. Outdoor Pollution Rates by Age: Which countries had the highest death rates across different age groups (under 5, 5-14 years, 15-49 years, 50-69 years, and 70+ years) in 2019? (Top 10 countries)
+
+![Top10AirPollutionDeathsAge](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/35c02953-6ae1-468f-a8ce-6d7f543e9e03)
+
+3. Death Rates From Air Pollution: Which countries had the highest death rates attributed to air pollution (including household air pollution, ambient particulate matter pollution, air pollution in general, and ambient ozone pollution) in 2019? (Top 10 countries)
+
+ ![Top10CountriesAirPolllutionDeaths](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/6904f8c6-90c3-4b82-8a51-9017db1e54e0)
+
+4. AQ Pollution Mortality Data: Which countries had the highest yearly total pollution deaths and air pollution deaths in 2019? (Top 10 countries)
+
+ ![Pollution Mortality Data](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/f93cced8-ef70-4787-b236-3b0484da4ef8)
+
+5. Disease Burden by Risk Factor: Is air pollution a leading cause of death compared to other risk factors such as smoking or poor diet? (Comparison of risk factors)
+
+![DiseaseBurden](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/0786148e-549a-488f-be39-a4d8f3b6b449)
+
+6. Number of Deaths by Risk Factors: Are deaths from air pollution attributed to various risk factors such as low physical activity, air pollution, and smoking? (Examine the relationship between air pollution and other risk factors)
+
+![DeathRisk](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/6c6b114a-ce54-4bd2-9554-d6252aa3ca0d)
+
 
 ## Conclusions:
-
-
 
 Pollutants such as PM2.5, PM10, and NO2 allow scientists to estimate the spatial distribution of their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution from city to city, and country to country.
 
