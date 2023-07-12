@@ -18,7 +18,7 @@ In this project, we aim to create a data-driven web application that showcases v
 The study involved analyzing air quality data from different countries as well as mortality rate and disease burden data related to air pollution. We used modeling technique like interactive visualizations to present the spatial distribution of pollutants such as PM25, PM10, and NO2 their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution  country to country.
 
 
-## Purpose:
+## Purpose
 
 The purpose of this study is to investigate the health impacts and mortality risk of air pollution, including ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels. By examining exposure to these types of pollution, we aim to gain a better understanding of the risks associated with air pollution and identify potential strategies to mitigate its harmful effects on human health.
 
@@ -28,7 +28,7 @@ The purpose of this study is to investigate the health impacts and mortality ris
 What is the severity of air pollution and its impact on disease burden and mortality rates?
 
 
-## Scope:
+## Scope
 
 The study covered a period of 5 years (2015-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.
 
@@ -89,13 +89,13 @@ World Health Organization (WHO)
 
 Links: 
 
-https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database
+[WHO Air Quality Database](https://www.who.int/data/gho/data/themes/air-pollution/who-air-quality-database)
 
-https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts
+[WHO Air Quality & Health Impacts](https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts)
 
-https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants
+[WHO Health Impacts & Types of Pollutants](https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/types-of-pollutants)
 
-https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution
+[WHO Health Impacts & Exposure- to Air Pllution](nhttps://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution)
        
 
 
@@ -103,7 +103,7 @@ Global Alliance on Health and Pollution (GAHP)
 
 Link: 
 
-https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_18_2019.pdf
+[Pollution & Health Metrics](https://gahp.net/wp-content/uploads/2019/12/PollutionandHealthMetrics-final-12_18_2019.pdf)
 
 
 
@@ -111,9 +111,9 @@ kaggle.com (@article{owidairpollution)
 
 Links: 
 
-https://www.kaggle.com/datasets/programmerrdai/air-pollution?select=death-rates-from-air-pollution.csv
+[Death Rates from Air Pollution](https://www.kaggle.com/datasets/programmerrdai/air-pollution?select=death-rates-from-air-pollution.csv)
 
-https://www.kaggle.com/datasets/programmerrdai/outdoor-air-pollution?select=PM25-air-pollution.csv
+[Outdoor Air Pollution](https://www.kaggle.com/datasets/programmerrdai/outdoor-air-pollution?select=PM25-air-pollution.csv)
 
 
 
