@@ -23,7 +23,7 @@ The study involved analyzing air quality data from different countries as well a
 The purpose of this study is to investigate the health impacts and mortality risk of air pollution, including ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels. By examining exposure to these types of pollution, we aim to gain a better understanding of the risks associated with air pollution and identify potential strategies to mitigate its harmful effects on human health.
 
 
-## Research Question
+## Research Questions
 
 1. Ambient Air Quality Data: Which countries had the highest concentrations of PM2.5, PM10, and NO2 in 2019? (Top 10 countries)
 2. Outdoor Pollution Rates by Age: Which countries had the highest death rates across different age groups (under 5, 5-14 years, 15-49 years, 50-69 years, and 70+ years) in 2019? (Top 10 countries)
