@@ -53,10 +53,19 @@ Utilized a JavaScript library not covered in class to enhance the visualizations
 
 ##### Visualization Design:
 
-Develop a minimum of three unique views to present the data effectively.
-Implement user-driven interactions such as dropdowns, filters, or zoom features to enable users to customize their visualizations.
-Present the visualizations in a clear, digestible manner to ensure easy interpretation for users of all levels.
-Focus on creating a compelling data story that effectively communicates insights and patterns from the dataset.
+The web application includes the following visualizations:
+
+1. Leaflet Map: The Leaflet library is used to create an interactive map that displays the spatial distribution of air pollution based on different pollutants (PM2.5, PM10, and NO2) across different countries. The map visualization enhances the understanding of the global variations in air pollution levels.
+
+2. Bar Plots: The Plotly.js library is utilized to create bar plots that showcase the top 10 countries based on pollutant levels. The bar plots provide a visual comparison of pollutant concentrations and allow users to explore data for different years.
+
+3. Radar Chart: The D3.js library is employed to generate a radar chart that depicts the death rates by different types of pollution. This visualization allows for a comprehensive comparison of the impact of various pollution types on mortality rates.
+
+4. Pie Chart: The D3.js library is also used to create a pie chart representing the outdoor pollution rates by age group. This visualization provides an overview of how different age groups are affected by air pollution.
+
+5. Disease Burden and Mortality Bar Charts: The Plotly.js library is used to generate bar charts that compare disease burden and mortality rates attributed to different risk factors with the impact of air pollution. These visualizations aid in understanding the relative contribution of air pollution to overall disease burden and mortality.
+
+The web application incorporates JavaScript libraries like Leaflet, Plotly.js, and D3.js to create interactive and visually appealing visualizations. These visualizations allow users to explore and analyze the dataset, enabling a better understanding of the relationships between air pollution, disease burden, and mortality rates.
 
 ## Limitations:
 
