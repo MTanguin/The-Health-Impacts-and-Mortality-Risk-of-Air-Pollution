@@ -76,7 +76,7 @@ The web application includes the following visualizations:
 
 The web application incorporates JavaScript libraries like Leaflet, Plotly.js, and D3.js to create interactive and visually appealing visualizations. These visualizations allow users to explore and analyze the dataset, enabling a better understanding of the relationships between air pollution, disease burden, and mortality rates.
 
-## Deployment:
+## Deployment
 
 Flask application
 
@@ -137,7 +137,7 @@ The Flask application sets up routes for each of these data categories and queri
 By accessing the defined routes of the Flask application, such as `"/countrydata"` or `"/agepollution"`, users can retrieve the corresponding data from the database in JSON format.
 
 
-## Results:
+## Results
 
 1. Ambient Air Quality Data: Which countries had the highest concentrations of PM2.5, PM10, and NO2 in 2019? (Top 10 countries)
 
@@ -164,7 +164,7 @@ By accessing the defined routes of the Flask application, such as `"/countrydata
 ![DeathRisk](https://github.com/MTanguin/Air_Quality_Project_3/assets/114210481/6c6b114a-ce54-4bd2-9554-d6252aa3ca0d)
 
 
-## Conclusions:
+## Conclusions
 
 Pollutants such as PM2.5, PM10, and NO2 allow scientists to estimate the spatial distribution of their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution from city to city, and country to country.
 
