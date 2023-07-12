@@ -15,20 +15,20 @@ Heidari, Ali | Shahzad, Sameen | Syed, Farman | Tanguin, Marivic
 
 In this project, we aim to create a data-driven web application that showcases visualizations and insights derived from a dataset. The dataset contains more than 100 unique records and is stored in a database PostgreSQL. By leveraging the power of Python Flask API, HTML/CSS, JavaScript, and the chosen database, we create an interactive web application that allows users to explore and understand the data through various visualizations.
 
-The study involved analyzing air quality data from different countries as well as mortality rate and disease burden data related to air pollution. We used modeling technique like interactive vivisualizations to present the spatial distribution of pollutants such as PM25, PM10, and NO2 their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution  country to country.
+The study involved analyzing air quality data from different countries as well as mortality rate and disease burden data related to air pollution. We used modeling technique like interactive visualizations to present the spatial distribution of pollutants such as PM25, PM10, and NO2 their ambient concentrations across different countries, quantifying air pollution,burden of disease and mortality rates. These pollutants, in addition to other pollutants vary across the globe and may result in different concentrations of air pollution  country to country.
 
 
 ## Purpose:
 
-
 The purpose of this study is to investigate the health impacts and mortality risk of air pollution, including ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels. By examining exposure to these types of pollution, we aim to gain a better understanding of the risks associated with air pollution and identify potential strategies to mitigate its harmful effects on human health.
+
 
 ## Research Question
 
 What is the severity of air pollution and its impact on disease burden and mortality rates?
 
-## Scope:
 
+## Scope:
 
 The study covered a period of 5 years (2015-2019) and includes data on air quality, mortality rates, and disease burden associated with air pollution from a variety of countries. The focus is on the health impacts and mortality risk associated with exposure to ambient household air pollution, ambient particulate matter pollution, ambient ozone pollution, and air pollution caused by solid fuels.
 
@@ -36,20 +36,20 @@ The study covered a period of 5 years (2015-2019) and includes data on air quali
 
 ##### Data Collection and Database Setup:
 
-Collect a dataset with a minimum of 100 unique records from reliable sources or through web scraping.
-Set up a database system, such as PostgreSQL, MongoDB, or SQLite, to store and manage the dataset.
+Collected a dataset with a minimum of 100 unique records from reliable sources or through web scraping and API request.
+Set up a database system PostgreSQL to store and manage the dataset.
 
 ##### Backend Development:
 
-Utilize Python Flask API to develop the backend of the web application.
-Create routes and endpoints to handle data requests and retrieve information from the database.
-Ensure that the page showcasing data visualizations runs without errors.
+Utilized Python Flask API to develop the backend of the web application.
+Created routes and endpoints to handle data requests and retrieve information from the database.
+Ensured that the page showcasing data visualizations runs without errors.
 
 ##### Frontend Development:
 
-Design and develop HTML/CSS templates to create an intuitive and visually appealing user interface.
-Incorporate JavaScript to enhance interactivity and user-driven interactions on the web page.
-Utilize a JavaScript library not covered in class to enhance the visualizations and user experience.
+Designed and developed HTML/CSS templates to create an intuitive and visually appealing user interface.
+Incorporated JavaScript to enhance interactivity and user-driven interactions on the web page.
+Utilized a JavaScript library not covered in class to enhance the visualizations and user experience.
 
 ##### Visualization Design:
 
