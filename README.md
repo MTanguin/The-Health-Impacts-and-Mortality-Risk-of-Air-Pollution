@@ -31,8 +31,6 @@ The purpose of this study is to investigate the health impacts and mortality ris
 4. AQ Pollution Mortality Data: Which countries had the highest yearly total pollution deaths and air pollution deaths in 2019? (Top 10 countries)
 5. Disease Burden by Risk Factor: Is air pollution a leading cause of death compared to other risk factors such as smoking or poor diet? (Comparison of risk factors)
 6. Number of Deaths by Risk Factors: Are deaths from air pollution attributed to various risk factors such as low physical activity, air pollution, and smoking? (Examine the relationship between air pollution and other risk factors)
-
-Please note that the specific data requested is from the year 2019. Let me know if you would like any further assistance with these research questions.
    
 
 ## Scope & Limitations
